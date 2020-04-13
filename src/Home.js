@@ -1,6 +1,6 @@
 // Complete React Code 
 import React from 'react'; 
-import Particles from 'react-particles-js'; 
+// import Particles from 'react-particles-js'; 
 
 import './styles/home.css';
 import logo from './images/log02.png';
@@ -16,7 +16,7 @@ class Home extends React.Component {
                 
             <div className="particles">
 
-              <Particles 
+              {/* <Particles 
         
                 params={{ 
 
@@ -69,7 +69,7 @@ class Home extends React.Component {
                 },
 
                 }} 
-              /> 
+              />  */}
             </div>
 
             <div className="particles__logo-img">
