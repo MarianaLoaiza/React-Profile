@@ -4,3 +4,11 @@ body{
     font-family: 'Slabo 28px', serif;
     background-color: rgb(233, 235, 233);    
 }
+
+[class*="title"]{
+    color: #ef6091;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
