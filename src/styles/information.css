@@ -10,10 +10,13 @@
 
 }
 
-
+.abautme__img{
+    margin: 20px 0 0 20px;
+}
 .abautme__img-logo{
-    width: 30%;
+    width: 150px;
     height: 300px;
+    
     border-radius: 10px;
     margin-bottom: 10px;
     
@@ -34,5 +37,36 @@
     align-items: center;
    
 
+}
+
+.skills__img{
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    
+
+}
+
+.cv__img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(87, 87, 87);
+    
+   
+
+}
+
+
+.cv__img:hover{
+    height: 200px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
 }
  

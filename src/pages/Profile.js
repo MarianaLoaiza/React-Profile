@@ -76,9 +76,12 @@ class Profile extends React.Component{
             <React.Fragment>
                 <Navbar />
 
-                <h1 className="profile__title">Projects</h1>
+                <h1 className="profile__title">Visita mi perfil en Github </h1>
+                
                
                  <Cards date={this.state.data}/>
+
+                 
 
                 <Footer />
             </React.Fragment>

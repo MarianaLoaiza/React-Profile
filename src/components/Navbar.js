@@ -19,15 +19,15 @@ const Navbar = () =>{
                     </li>  
 
                     <li className="nav-link active">
-                        <Link to="/First/Page"className="nav__link">HOME</Link>
+                        <Link to="/First/Page"className="nav__link">Home</Link>
                     </li>
 
                     <li className="nav-link active">
-                        <Link to="/Abautme" className="nav__link">ABOUT ME</Link>
+                        <Link to="/Abautme" className="nav__link">Perfil</Link>
                     </li>
 
                     <li className="nav-link active">
-                        <Link to="/Profile"className="nav__link">PROFILE</Link>
+                        <Link to="/Profile"className="nav__link">Proyectos</Link>
                     </li>
 
                 </ul>
