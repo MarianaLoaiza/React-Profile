@@ -1,0 +1,37 @@
+
+.container-error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/error.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-error__title{
+    color: #E1E2E1;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.container-error__btn{
+    width: 95px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ba2d65;
+    color: #E1E2E1;
+    border-radius: 10%;
+  
+   
+}
+
+.container-error__btn:hover{
+    box-shadow: 14px 17px 37px 4px black;
+}

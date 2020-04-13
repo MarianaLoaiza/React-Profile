@@ -1,0 +1,28 @@
+.hero{
+    height: 500px;
+    width: 100%;
+    background-image: url(../images/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: 240vh;
+    background-attachment: fixed;
+    filter: opacity(.9);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+
+}
+
+.hero__welcome{
+    position: relative;
+    z-index: 99;
+    color:  white;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
