@@ -23,8 +23,7 @@ class Abautme extends React.Component{
             <React.Fragment>
 
             <Navbar />
-
-           
+ 
 
             <div className="hero">
                    

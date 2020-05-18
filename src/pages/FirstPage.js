@@ -11,12 +11,10 @@ class FirstPage extends React.Component{
     render(){
         return(
             <React.Fragment>  
-            <Navbar/>
-            <Home />
+                
+                <Navbar/>
+                <Home />
             
-
-            
-
             </React.Fragment>
         )
     }
