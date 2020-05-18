@@ -15,7 +15,7 @@ const Navbar = () =>{
                 <ul className="nav justify-content-center header">
 
                     <li>
-                        <img src={logo} className="header__img-logo"/>
+                        <img src={logo} className="header__img-logo" alt="logo"/>
                     </li>  
 
                     <li className="nav-link active">

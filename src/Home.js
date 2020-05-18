@@ -1,4 +1,4 @@
-// Complete React Code 
+
 import React from 'react'; 
 // import Particles from 'react-particles-js'; 
 
@@ -73,7 +73,7 @@ class Home extends React.Component {
             </div>
 
             <div className="particles__logo-img">
-              <img src={logo}  />
+              <img src={logo} alt="logo" />
             </div>
 
           </div> 

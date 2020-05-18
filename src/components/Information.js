@@ -20,7 +20,7 @@ const Information = () =>{
                 <h1 className="content-title">Mariana Loaiza Llano</h1>
                 <div className="column ">
                     <div className="col-12 d-flex justify-content-center " >
-                        <img src = {me} className="abautme__img-logo" />
+                        <img src={me} className="abautme__img-logo" alt="logo" />
                     </div>
                     <div className="col-12 d-flex justify-content-center">
                         <section className="information__me">
@@ -68,10 +68,10 @@ const Information = () =>{
                 <div className="row col-12 d-flex justify-content-center">
 
                 
-                    <img src={java} className="skills__img"/>
-                    <img src={react} className="skills__img"/>
-                    <img src={js} className="skills__img"/>
-                    <img src={ingles} className="skills__img"/>
+                    <img src={java} className="skills__img" alt="java"/>
+                    <img src={react} className="skills__img" alt="reaact"/>
+                    <img src={js} className="skills__img" alt="js"/>
+                    <img src={ingles} className="skills__img" alt="ingles"/>
                     
                 </div>
              </div>
@@ -82,7 +82,7 @@ const Information = () =>{
                 <div className="row col-12 d-flex justify-content-center">
 
                     <a href={cvpdf} target="blanck">
-                        <img src={cv} className="cv__img"/>
+                        <img src={cv} className="cv__img" alt="cv"/>
                     </a>
                    
                     

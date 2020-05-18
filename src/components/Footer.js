@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React  from 'react';
 
 import github from '../images/github.png';
 import instagram from '../images/instagram.png';
@@ -19,10 +19,10 @@ const Footer = () =>{
                         <div className="container-footer"> 
                     
                             <div className="container__img">
-                                <a href="https://github.com/MarianaLoaiza" target="blank"><img src={github} className="container__img-github" /></a>
-                                <a href="https://www.linkedin.com/in/marianaloaiza98/"target="blank">  <img src={linkedlin} className="container__img-linkedlin"  /></a>
-                                <a href="https://www.instagram.com/mariana.1516/" target="blank"><img src={instagram} className="container__img-instagram" target="blank"/></a>
-                                <a href="mailto:mariloaiza20@gmail.com"><img src={gmail} className="container__img-gmail"  /></a>
+                                <a href="https://github.com/MarianaLoaiza" target="blank"><img src={github} className="container__img-github" alt="ginhub"/></a>
+                                <a href="https://www.linkedin.com/in/marianaloaiza98/"target="blank">  <img src={linkedlin} className="container__img-linkedlin" alt="linkedlin" /></a>
+                                <a href="https://www.instagram.com/mariana.1516/" target="blank"><img src={instagram} className="container__img-instagram" target="blank" alt="instagram"/></a>
+                                <a href="mailto:mariloaiza20@gmail.com"><img src={gmail} className="container__img-gmail" alt="email" /></a>
                             
                              </div>
 

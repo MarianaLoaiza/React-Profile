@@ -11,7 +11,7 @@ class Cards extends React.Component{
             <React.Fragment>
                 <div className="container">
 
-                    <div className=" row ">
+                    <div className="row">
 
                         {this.props.date.map((date) => {
 
@@ -21,11 +21,11 @@ class Cards extends React.Component{
 
                                     <div className="card-body ">
                                         <p className="card-title ">{date.projectName}</p>
-                                        <img className="text-center" src={date.img} width="280px" />
+                                        <img className="text-center" src={date.img} width="280px" alt="profile" />
                                         <p className="card-text ">{date.lenguaje}</p>
                                         <p>{date.description}</p>
                                         <a href={date.link} className="btn btn-primary " target="blank">View</a>
-                                        <a href={date.github} target="blank"><img src={github} width="30px" height="30px"/></a>
+                                        <a href={date.github} target="blank"><img src={github} width="30px" height="30px" alt="github"/></a>
                                     </div>
                                 
                                 

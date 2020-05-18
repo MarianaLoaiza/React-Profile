@@ -134,7 +134,10 @@ class Profile extends React.Component{
             <React.Fragment>
                 <Navbar />
 
+                <section>
                 <h1 className="profile__title">Mis proyectos ♡ </h1>
+               
+                </section>
                 
                
                  <Cards date={this.state.data}/>

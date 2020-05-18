@@ -17,14 +17,13 @@ function App() {
    return(
       
        <BrowserRouter>
-     
 
             <Layout>
 
             <Switch>
-            <Route exact path="/Abautme" component ={Abautme} />
-            <Route exact path="/First/Page" component ={FirstPage} />
-            <Route exact path="/Profile" component ={Profile} />
+            <Route exact path="/Abautme" component={Abautme} />
+            <Route exact path="/First/Page" component={FirstPage} />
+            <Route exact path="/Profile" component={Profile} />
             <Route component={NotFound} />
             </Switch>
      
